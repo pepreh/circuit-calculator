@@ -1,0 +1,49 @@
+# Simple Circuit Calculator
+
+## Description
+A C++ application that implements Ohm's Law and power calculations for basic electrical circuits. This tool helps students and engineers quickly calculate voltage, current, resistance, and power in electrical circuits. Perfect for circuit analysis and homework.
+
+## Features
+- Calculate Resistance using Ohm's Law (R = V/I)
+- Calculate Current using Ohm's Law (I = V/R)
+- Calculate Voltage using Ohm's Law (V = I×R)
+- Calculate Power (P = V×I)
+- Save calculations to file for future reference
+- Error handling for invalid inputs
+- Formatted output with precision to 2 decimal places
+
+## Technologies Used
+- C++
+- Mathematical calculations
+- File I/O (append mode)
+- Formatted output (iomanip library)
+- Input validation
+
+## How to Use
+
+1. **Compile:** `g++ circuit_calculator.cpp -o circuit_calculator`
+2. **Run:** `./circuit_calculator`
+
+## Menu Options
+- Option 1: Calculate Resistance (enter V and I)
+- Option 2: Calculate Current (enter V and R)
+- Option 3: Calculate Voltage (enter I and R)
+- Option 4: Calculate Power (enter V and I)
+- Option 5: Save calculations to file
+- Option 6: Exit
+
+## Formula Reference
+- V = I × R (Voltage)
+- I = V ÷ R (Current)
+- R = V ÷ I (Resistance)
+- P = V × I (Power)
+
+## Skills Demonstrated
+- Electrical engineering knowledge (Ohm's Law)
+- Mathematical computations
+- File I/O operations
+- Input validation
+- Circuit analysis fundamentals
+
+## Author
+Electronics & Electrical Engineering Student, Level 100
